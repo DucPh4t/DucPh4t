@@ -66,7 +66,7 @@ const viewSource = create_app_config({
 	resizable: true,
 
 	should_open_window: false,
-	external_action: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
+	external_action: () => window.open('https://github.com/DucPh4t/Porfolio', '_blank'),
 });
 
 const vercel = create_app_config({
@@ -75,7 +75,7 @@ const vercel = create_app_config({
 
 	should_open_window: false,
 	external_action: () =>
-		window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
+		window.open('https://vercel.com', '_blank'),
 
 	dock_breaks_before: true,
 });
@@ -85,6 +85,14 @@ const appstore = create_app_config({
 	resizable: true,
 });
 
+const spotify = create_app_config({
+	title: 'Spotify',
+	resizable: true,
+
+	height: 600,
+	width: 800,
+});
+
 export const apps_config = {
 	finder,
 	wallpapers,
@@ -92,6 +100,7 @@ export const apps_config = {
 	calendar,
 	vscode,
 	appstore,
+	spotify,
 	// safari,
 
 	// 'system-preferences': systemPreferences,

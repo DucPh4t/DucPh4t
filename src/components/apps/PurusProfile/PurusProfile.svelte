@@ -19,45 +19,33 @@
 
 	<aside class:light={preferences.theme.scheme === 'light'}>
 		<nav>
-			<a href="https://www.puruvj.dev/blog" use:external> <BlogIcon /> Blog </a>
-			<a href="https://www.puruvj.dev/works" use:external> <WorksIcon /> Works </a>
-
-			<hr />
-
-			<a href="https://www.puruvj.dev/twitter" use:external>
-				<TwitterIcon />
-				Twitter
-			</a>
-			<a href="https://www.puruvj.dev/github" use:external> <GithubIcon /> Github </a>
-			<a href="https://www.puruvj.dev/devto" use:external> <DevToIcon /> Dev.to </a>
+			<a href="https://github.com/DucPh4t" use:external> <GithubIcon /> Github </a>
 		</nav>
 	</aside>
 
 	<section class="content">
-		<img height="200" width="200" src="/purus-profile/puru.webp" alt="Puru Vijay Profile pic" />
+		<img height="200" width="200" src="/purus-profile/puru.png" alt="Nguyễn Đức Phát Profile pic" />
 
 		<br />
 
-		<h1>Hi, I'm Puru</h1>
+		<h1>Xin chào, mình là Nguyễn Đức Phát</h1>
 
 		<h2>
-			I'm the creator of macOS Web, which you're on right now
+			Mình là nhà phát triển Fullstack Web, và đây là Portfolio cá nhân của mình
 			<img src="/emojis/wink.png" alt="Wink emoji" class="emoji" />
 		</h2>
 
 		<br /><br />
 
 		<p>
-			I am a fullstack web developer, with an infinite amount of love for frontend web development,
-			esp JavaScript, TypeScript, and for frontend frameworks like Svelte, Vue and React
+			Mình có niềm đam mê lớn với lập trình và thiết kế giao diện ứng dụng web cao cấp, đặc biệt sử dụng các công nghệ như JavaScript, TypeScript, Svelte, Vue và React.
 			<img src="/emojis/star-struck.png" alt="Star Struck face emoji" class="emoji" />
 		</p>
 
 		<br /><br />
 
 		<p>
-			However, my love for tech doesn't end there. I enjoy writing backend APIs, scripts, working
-			with databases, and my fav platforms are NodeJS, Deno and Go
+			Bên cạnh đó, mình cũng có kinh nghiệm xây dựng các hệ thống Backend, API, cơ sở dữ liệu trên nền tảng Node.js, Spring Boot và Go.
 		</p>
 	</section>
 </section>

@@ -18,6 +18,10 @@
 	{#await import('./VSCode/VSCode.svelte') then { default: VSCode }}
 		<VSCode {is_being_dragged} />
 	{/await}
+{:else if app_id === 'spotify'}
+	{#await import('./Spotify/Spotify.svelte') then { default: Spotify }}
+		<Spotify {is_being_dragged} />
+	{/await}
 {:else if app_id === 'calculator'}
 	{#await import('./Calculator/Calculator.svelte') then { default: Calculator }}
 		<Calculator />
