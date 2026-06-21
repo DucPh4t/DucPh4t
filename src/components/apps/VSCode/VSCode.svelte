@@ -13,7 +13,7 @@
 
 	<div>
 		<iframe
-			src="https://stackblitz.com/github/DucPh4t/Porfolio?embed=1&file=src/components/Desktop/Desktop.svelte&hideNavigation=1&theme=dark&view=editor"
+			src="https://stackblitz.com/github/DucPh4t/DucPh4t?embed=1&file=src/components/Desktop/Desktop.svelte&hideNavigation=1&theme=dark&view=editor"
 			title="VS Code for macOS Web"
 		></iframe>
 	</div>

@@ -2,7 +2,7 @@
 
 This project replicates the macOS desktop experience on the web, built using Svelte.
 
-🔗🔗 [macos-web.app](https://github.com/DucPh4t/Porfolio)
+🔗🔗 [macos-web.app](https://github.com/DucPh4t/DucPh4t)
 
 # Stack
 

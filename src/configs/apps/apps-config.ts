@@ -66,7 +66,7 @@ const viewSource = create_app_config({
 	resizable: true,
 
 	should_open_window: false,
-	external_action: () => window.open('https://github.com/DucPh4t/Porfolio', '_blank'),
+	external_action: () => window.open('https://github.com/DucPh4t/DucPh4t', '_blank'),
 });
 
 const vercel = create_app_config({
