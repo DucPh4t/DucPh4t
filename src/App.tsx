@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Background from './components/portfolio/Background';
 import Header from './components/portfolio/Header';
 import Hero from './components/portfolio/Hero';
