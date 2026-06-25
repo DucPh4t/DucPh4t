@@ -50,7 +50,7 @@ function App() {
       <div 
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 hidden md:block mix-blend-screen" 
         style={{ 
-          background: 'radial-gradient(250px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh), rgba(14, 165, 233, 0.15), transparent 80%)' 
+          background: 'radial-gradient(125px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh), rgba(14, 165, 233, 0.15), transparent 80%)' 
         }} 
       />
       <Background />
