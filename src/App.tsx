@@ -46,11 +46,23 @@ function App() {
 
   return (
     <>
-      {/* Global Mouse Spotlight Effect */}
+      {/* Global Mouse Spotlight Effect (Prettier & Smaller) */}
       <div 
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 hidden md:block" 
         style={{ 
-          background: 'radial-gradient(800px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh), rgba(14, 165, 233, 0.08), transparent 40%)' 
+          background: 'radial-gradient(400px circle at var(--mouse-x, 50vw) var(--mouse-y, 50vh), rgba(14, 165, 233, 0.1), transparent 60%)' 
+        }} 
+      />
+      {/* Inner sharp glow for the cursor */}
+      <div 
+        className="pointer-events-none fixed z-40 hidden md:block mix-blend-screen" 
+        style={{ 
+          left: 'var(--mouse-x, 50vw)', 
+          top: 'var(--mouse-y, 50vh)',
+          width: '40px',
+          height: '40px',
+          transform: 'translate(-50%, -50%)',
+          background: 'radial-gradient(circle, rgba(34, 211, 238, 0.4) 0%, transparent 70%)'
         }} 
       />
       <Background />
