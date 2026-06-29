@@ -71,7 +71,7 @@ const Hero = () => {
         <div className="relative w-full max-w-lg mx-auto lg:max-w-none reveal tilt-wrapper" style={{ transitionDelay: '0.2s' }}>
           {/* Floating Tech Badges */}
           <div className="absolute -left-6 top-12 bg-dev-surface border border-slate-700 px-3 py-2 rounded-xl items-center gap-2 shadow-xl z-20 animate-float-slow glass-panel hidden md:flex">
-            <span className="text-yellow-400 font-bold">Py</span> Python
+            <span className="text-cyan-400 font-bold">Go</span> Golang
           </div>
           <div className="absolute -right-4 top-28 bg-dev-surface border border-slate-700 px-3 py-2 rounded-xl flex items-center gap-2 shadow-xl z-20 animate-float-fast glass-panel">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span> Active
@@ -88,25 +88,25 @@ const Hero = () => {
                 <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
                 <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
               </div>
-              <div className="text-xs text-slate-400 font-mono">etl_pipeline.py</div>
+              <div className="text-xs text-slate-400 font-mono">main.go</div>
               <div className="w-12"></div>
             </div>
             <div className="p-6 font-mono text-sm md:text-[15px] leading-8 overflow-x-auto text-[#abb2bf]">
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">1</span> <div><span className="text-purple-400">import</span> pandas <span className="text-purple-400">as</span> pd</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">2</span> <div><span className="text-purple-400">from</span> data_warehouse <span className="text-purple-400">import</span> BigQuery</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">3</span> <div></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">4</span> <div><span className="text-purple-400">class</span> <span className="text-yellow-300">DataEngineer</span>:</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">5</span> <div>&nbsp;&nbsp;<span className="text-purple-400">def</span> <span className="text-blue-400">__init__</span>(<span className="text-red-400">self</span>):</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">6</span> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-red-400">self</span>.name = <span className="text-emerald-400">"Duc Phat"</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">7</span> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-red-400">self</span>.role = <span className="text-emerald-400">"Data Engineer & Analyst"</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">8</span> <div></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">9</span> <div>&nbsp;&nbsp;<span className="text-purple-400">def</span> <span className="text-blue-400">process_data</span>(<span className="text-red-400">self</span>, source_data):</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">10</span><div>&nbsp;&nbsp;&nbsp;&nbsp;df = pd.<span className="text-blue-400">clean</span>(source_data) <span className="text-slate-500"># ✨</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">11</span><div>&nbsp;&nbsp;&nbsp;&nbsp;BigQuery.<span className="text-blue-400">load</span>(df, dest=<span className="text-emerald-400">"analytics_db"</span>)</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">12</span><div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-purple-400">return</span> <span className="text-emerald-400">"Insights ready! 🚀"</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">13</span><div></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">14</span><div>phat = <span className="text-yellow-300">DataEngineer</span>()</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">15</span><div>phat.<span className="text-blue-400">process_data</span>(raw_data)</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">1</span> <div><span className="text-purple-400">package</span> main</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">2</span> <div><span className="text-slate-500">// Architecting scalable systems 🚀</span></div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">3</span> <div><span className="text-purple-400">type</span> <span className="text-yellow-300">Developer</span> <span className="text-purple-400">struct</span> {'{'}</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">4</span> <div>&nbsp;&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">string</span></div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">5</span> <div>&nbsp;&nbsp;Focus&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">string</span></div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">6</span> <div>&nbsp;&nbsp;Coffee&nbsp;&nbsp;&nbsp;<span className="text-blue-400">bool</span></div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">7</span> <div>{'}'}</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">8</span> <div><span className="text-purple-400">func</span> <span className="text-blue-400">main</span>() {'{'}</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">9</span> <div>&nbsp;&nbsp;me := <span className="text-yellow-300">Developer</span>{'{'}</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">10</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Name:&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Duc Phat"</span>,</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">11</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Focus:&nbsp;&nbsp;<span className="text-emerald-400">"Distributed Systems"</span>,</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">12</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Coffee:&nbsp;<span className="text-purple-400">true</span>,</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">13</span><div>&nbsp;&nbsp;{'}'}</div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">14</span><div>&nbsp;&nbsp;me.<span className="text-blue-400">Build</span>(<span className="text-emerald-400">"Awesome APIs"</span>)<span className="animate-blink bg-slate-400 text-transparent ml-0.5">_</span></div></div>
+              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">15</span><div>{'}'}</div></div>
             </div>
           </div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-dev-primary/10 blur-[80px] -z-10 rounded-full"></div>

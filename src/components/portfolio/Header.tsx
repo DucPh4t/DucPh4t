@@ -44,8 +44,8 @@ const Header = () => {
           </nav>
           
           <div className="flex items-center gap-4">
-            <a href="#contact" className="px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-medium rounded-xl transition-all text-sm flex items-center gap-2 group">
-              <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_#22c55e] group-hover:animate-ping"></div>
+            <a href="#contact" className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-medium rounded-xl transition-all text-sm flex items-center gap-2 group">
+              <div className="w-2.5 h-2.5 rounded-full bg-green-500 shadow-[0_0_12px_rgba(34,197,94,0.8)] group-hover:animate-pulse"></div>
               Hire me
             </a>
           </div>

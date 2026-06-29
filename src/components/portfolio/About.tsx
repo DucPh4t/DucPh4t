@@ -47,15 +47,25 @@ const About = () => {
             </div>
             <div className="p-6 font-mono text-sm text-slate-300 leading-loose">
               <div className="mb-4">
-                <span className="text-emerald-400">guest@ducphat</span>:<span className="text-blue-400">~</span>$ curl -X GET api/me
+                <span className="text-emerald-400">guest@ducphat</span>:<span className="text-blue-400">~</span>$ curl -X GET api.ducphat.dev/me
                 <br />
                 <span className="text-slate-400">{'{'}</span>
                 <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"status"</span>: <span className="text-emerald-400">"☕️ Extracting data..."</span>,
+                &nbsp;&nbsp;<span className="text-cyan-300">"status"</span>: <span className="text-emerald-400">"☕️ Converting coffee to code"</span>,
                 <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"location"</span>: <span className="text-emerald-400">"Vietnam / Remote"</span>,
+                &nbsp;&nbsp;<span className="text-cyan-300">"location"</span>: <span className="text-emerald-400">"Earth, Solar System"</span>,
                 <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"focus"</span>: <span className="text-blue-300">["Data Quality", "Scalability"]</span>
+                &nbsp;&nbsp;<span className="text-cyan-300">"passions"</span>: <span className="text-slate-300">[</span>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"System Architecture"</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Performance Optimization"</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Clean Code"</span>
+                <br />
+                &nbsp;&nbsp;<span className="text-slate-300">]</span>,
+                <br />
+                &nbsp;&nbsp;<span className="text-cyan-300">"ping"</span>: <span className="text-emerald-400">"12ms"</span>
                 <br />
                 <span className="text-slate-400">{'}'}</span>
               </div>
