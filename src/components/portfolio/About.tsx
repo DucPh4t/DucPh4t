@@ -16,27 +16,28 @@ const About = () => {
               I am a data professional passionate about turning raw information into actionable insights. My journey evolved from analyzing datasets to architecting end-to-end data pipelines that empower business decisions at scale.
             </p>
             
-            {/* Git commit style timeline */}
-            <div className="mt-8 space-y-6 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-700 before:to-transparent">
+            {/* Git commit style timeline (Optimized CSS) */}
+            <div className="mt-12 relative before:absolute before:inset-0 before:ml-[11px] md:before:mx-auto md:before:translate-x-0 before:h-full before:w-[2px] before:bg-gradient-to-b before:from-dev-primary before:via-slate-700 before:to-transparent">
               
-              <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-5 h-5 rounded-full border-2 border-dev-primary bg-dev-bg z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_10px_rgba(14,165,233,0.5)]"></div>
-                <div className="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] glass-panel p-4 rounded-xl">
-                  <div className="text-dev-primary font-mono text-xs mb-1">commit: 2023 - Present</div>
-                  <div className="text-white font-semibold">Data Engineer</div>
-                  <div className="text-sm mt-2 text-slate-400">Designing and maintaining scalable ETL pipelines, optimizing Data Warehouse architecture.</div>
+              {/* Timeline Item 1 */}
+              <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group mb-8">
+                <div className="flex items-center justify-center w-6 h-6 rounded-full border-4 border-dev-bg bg-dev-primary z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_15px_rgba(14,165,233,0.6)]"></div>
+                <div className="w-[calc(100%-3rem)] md:w-[calc(50%-2rem)] glass-panel p-5 rounded-xl border-dev-primary/30 transition-transform duration-300 hover:-translate-y-1">
+                  <div className="text-dev-primary font-mono text-xs mb-1.5 font-semibold">commit: 2023 - Present</div>
+                  <div className="text-white font-bold text-lg">Data Engineer</div>
+                  <div className="text-[15px] mt-2 text-slate-400 leading-snug">Designing and maintaining scalable ETL pipelines, optimizing Data Warehouse architecture.</div>
                 </div>
               </div>
 
+              {/* Timeline Item 2 */}
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                <div className="flex items-center justify-center w-5 h-5 rounded-full border-2 border-slate-600 bg-dev-bg z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"></div>
-                <div className="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] border border-slate-800/50 bg-dev-surface/30 p-4 rounded-xl">
-                  <div className="text-slate-500 font-mono text-xs mb-1">commit: 2021 - 2023</div>
-                  <div className="text-slate-300 font-semibold">Data Analyst</div>
-                  <div className="text-sm mt-2 text-slate-400">Created BI dashboards and performed statistical analysis to drive business strategies.</div>
+                <div className="flex items-center justify-center w-6 h-6 rounded-full border-4 border-dev-bg bg-slate-600 z-10 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 transition-colors group-hover:bg-slate-400"></div>
+                <div className="w-[calc(100%-3rem)] md:w-[calc(50%-2rem)] border border-slate-800/80 bg-dev-surface/50 p-5 rounded-xl transition-transform duration-300 hover:-translate-y-1">
+                  <div className="text-slate-500 font-mono text-xs mb-1.5">commit: 2021 - 2023</div>
+                  <div className="text-slate-300 font-bold text-lg">Data Analyst</div>
+                  <div className="text-[15px] mt-2 text-slate-400 leading-snug">Created BI dashboards and performed statistical analysis to drive business strategies.</div>
                 </div>
               </div>
-
             </div>
           </div>
           
