@@ -41,36 +41,42 @@ const About = () => {
           </div>
           
           {/* Terminal CLI Visual */}
-          <div className="md:col-span-5 bg-dev-surface rounded-xl border border-slate-700 overflow-hidden shadow-2xl glow-card">
-            <div className="bg-[#161f33] px-4 py-3 border-b border-slate-700 flex items-center gap-2">
-              <span className="text-slate-400 text-xs font-mono">bash -- sys_info</span>
-            </div>
-            <div className="p-6 font-mono text-sm text-slate-300 leading-loose">
-              <div className="mb-4">
-                <span className="text-emerald-400">guest@ducphat</span>:<span className="text-blue-400">~</span>$ curl -X GET api.ducphat.dev/me
-                <br />
-                <span className="text-slate-400">{'{'}</span>
-                <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"status"</span>: <span className="text-emerald-400">"☕️ Converting coffee to code"</span>,
-                <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"location"</span>: <span className="text-emerald-400">"Earth, Solar System"</span>,
-                <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"passions"</span>: <span className="text-slate-300">[</span>
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"System Architecture"</span>,
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Performance Optimization"</span>,
-                <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Clean Code"</span>
-                <br />
-                &nbsp;&nbsp;<span className="text-slate-300">]</span>,
-                <br />
-                &nbsp;&nbsp;<span className="text-cyan-300">"ping"</span>: <span className="text-emerald-400">"12ms"</span>
-                <br />
-                <span className="text-slate-400">{'}'}</span>
+          <div className="md:col-span-5 bg-[#050505] rounded-xl border border-slate-700 overflow-hidden shadow-2xl glow-card group transition-all hover:shadow-[0_0_40px_rgba(14,165,233,0.15)] relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="bg-[#161f33] px-4 py-3 border-b border-slate-700 flex items-center relative z-10">
+              <div className="flex gap-2 absolute left-4">
+                <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
               </div>
-              <div>
-                <span className="text-emerald-400">guest@ducphat</span>:<span className="text-blue-400">~</span>$ <span className="animate-blink bg-slate-400 text-transparent">_</span>
+              <span className="text-slate-400 text-xs font-mono w-full text-center">bash -- sys_info</span>
+            </div>
+            <div className="p-6 font-mono text-sm md:text-[15px] text-slate-300 leading-relaxed relative z-10">
+              <div className="mb-4">
+                <span className="text-green-400 font-semibold">guest@ducphat</span>:<span className="text-blue-400 font-semibold">~</span>$ <span className="text-slate-300">curl -X GET api.ducphat.dev/me</span>
+                <br />
+                <span className="text-yellow-400">{'{'}</span>
+                <br />
+                &nbsp;&nbsp;<span className="text-blue-400">"status"</span>: <span className="text-green-400">"☕️ Converting coffee to code"</span>,
+                <br />
+                &nbsp;&nbsp;<span className="text-blue-400">"location"</span>: <span className="text-green-400">"Earth, Solar System"</span>,
+                <br />
+                &nbsp;&nbsp;<span className="text-blue-400">"passions"</span>: <span className="text-purple-400">[</span>
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"System Architecture"</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"Performance Optimization"</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-green-400">"Clean Code"</span>
+                <br />
+                &nbsp;&nbsp;<span className="text-purple-400">]</span>,
+                <br />
+                &nbsp;&nbsp;<span className="text-blue-400">"ping"</span>: <span className="text-orange-400">"12ms"</span>
+                <br />
+                <span className="text-yellow-400">{'}'}</span>
+              </div>
+              <div className="flex items-center">
+                <span className="text-green-400 font-semibold">guest@ducphat</span>:<span className="text-blue-400 font-semibold">~</span>$ <span className="w-2.5 h-4 bg-slate-300 ml-2 animate-blink inline-block"></span>
               </div>
             </div>
           </div>
