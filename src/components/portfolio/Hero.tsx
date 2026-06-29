@@ -1,6 +1,30 @@
+import { useState, useEffect } from 'react';
 
+const PHRASES = ["Data Pipelines", "Machine Learning Models", "Cloud-native Systems", "ETL Architectures"];
 
 const Hero = () => {
+  const [typedText, setTypedText] = useState("");
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentPhrase = PHRASES[phraseIndex];
+    const typeSpeed = isDeleting ? 50 : 100;
+    
+    const timeout = setTimeout(() => {
+      if (!isDeleting && typedText === currentPhrase) {
+        setTimeout(() => setIsDeleting(true), 1500);
+      } else if (isDeleting && typedText === "") {
+        setIsDeleting(false);
+        setPhraseIndex((prev) => (prev + 1) % PHRASES.length);
+      } else {
+        setTypedText(currentPhrase.substring(0, typedText.length + (isDeleting ? -1 : 1)));
+      }
+    }, typeSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [typedText, isDeleting, phraseIndex]);
+
   return (
     <section id="home" className="min-h-screen flex items-center pt-32 pb-12">
       <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
@@ -16,9 +40,10 @@ const Hero = () => {
             <span className="inline-block hover:animate-[spin_1s_ease-in-out] origin-bottom-right cursor-default transition-transform ml-2">👋</span>
           </h1>
           
-          <h2 className="text-2xl sm:text-3xl font-semibold text-slate-300 mb-6 flex items-center gap-2">
-            <span className="text-white">Data</span> & Analytics
-            <span className="w-0.5 h-8 bg-dev-primary animate-blink ml-1"></span>
+          <h2 className="text-2xl sm:text-3xl font-semibold text-slate-300 mb-6 flex items-center h-10">
+            <span className="text-white mr-2">I build</span>
+            <span id="typing-text" className="text-dev-primary font-mono bg-dev-primary/10 px-2 rounded border border-dev-primary/20">{typedText}</span>
+            <span className="w-0.5 h-6 bg-dev-primary animate-blink ml-1"></span>
           </h2>
 
           <p className="text-dev-text leading-relaxed mb-10 max-w-xl text-lg">

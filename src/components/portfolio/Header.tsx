@@ -44,7 +44,8 @@ const Header = () => {
           </nav>
           
           <div className="flex items-center gap-4">
-            <a href="#contact" className="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-dev-primary hover:from-blue-500 hover:to-dev-secondary text-white font-medium rounded-xl transition-all shadow-[0_0_15px_rgba(14,165,233,0.3)] text-sm">
+            <a href="#contact" className="px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-medium rounded-xl transition-all text-sm flex items-center gap-2 group">
+              <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_#22c55e] group-hover:animate-ping"></div>
               Hire me
             </a>
           </div>
