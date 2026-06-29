@@ -14,6 +14,11 @@ export default {
         'dev-secondary': '#38bdf8',
         'dev-border': '#1e293b',
         'dev-text': '#94a3b8',
+        'code-keyword': '#c678dd',
+        'code-function': '#61afef',
+        'code-string': '#98c379',
+        'code-type': '#e5c07b',
+        'code-comment': '#5c6370',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

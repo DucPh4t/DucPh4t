@@ -81,32 +81,44 @@ const Hero = () => {
           </div>
 
           {/* IDE Window */}
-          <div className="tilt-card bg-[#0b1221] rounded-2xl border border-slate-700 shadow-[0_20px_50px_-15px_rgba(14,165,233,0.2)] overflow-hidden relative z-10 glow-card">
-            <div className="flex items-center justify-between px-4 py-3 bg-[#111827] border-b border-slate-800">
-              <div className="flex gap-2.5">
-                <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-              </div>
-              <div className="text-xs text-slate-400 font-mono">main.go</div>
-              <div className="w-12"></div>
+          <div className="tilt-card bg-[#1e1e1e] rounded-2xl border border-slate-700/60 shadow-[0_30px_60px_-15px_rgba(14,165,233,0.3)] overflow-hidden relative z-10 group">
+            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+            
+            {/* Mac OS Header */}
+            <div className="flex items-center px-4 py-3 bg-[#252526] border-b border-[#333333]">
+                <div className="flex gap-2 w-16">
+                    <div className="w-3 h-3 rounded-full bg-[#ff5f56] border border-[#e0443e]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#ffbd2e] border border-[#dea123]"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#27c93f] border border-[#1aab29]"></div>
+                </div>
+                <div className="flex-1 flex justify-center">
+                    <div className="bg-[#333333] px-4 py-1 rounded-md text-xs text-[#cccccc] font-mono border border-[#444444] flex items-center gap-2">
+                        <svg className="w-3.5 h-3.5 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l-12 12h5v12h14v-12h5z"/></svg>
+                        main.go
+                    </div>
+                </div>
+                <div className="w-16"></div>
             </div>
-            <div className="p-6 font-mono text-sm md:text-[15px] leading-8 overflow-x-auto text-[#abb2bf]">
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">1</span> <div><span className="text-purple-400">package</span> main</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">2</span> <div><span className="text-slate-500">// Architecting scalable systems 🚀</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">3</span> <div><span className="text-purple-400">type</span> <span className="text-yellow-300">Developer</span> <span className="text-purple-400">struct</span> {'{'}</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">4</span> <div>&nbsp;&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">string</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">5</span> <div>&nbsp;&nbsp;Focus&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-400">string</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">6</span> <div>&nbsp;&nbsp;Coffee&nbsp;&nbsp;&nbsp;<span className="text-blue-400">bool</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">7</span> <div>{'}'}</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">8</span> <div><span className="text-purple-400">func</span> <span className="text-blue-400">main</span>() {'{'}</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">9</span> <div>&nbsp;&nbsp;me := <span className="text-yellow-300">Developer</span>{'{'}</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">10</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Name:&nbsp;&nbsp;&nbsp;<span className="text-emerald-400">"Duc Phat"</span>,</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">11</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Focus:&nbsp;&nbsp;<span className="text-emerald-400">"Distributed Systems"</span>,</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">12</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Coffee:&nbsp;<span className="text-purple-400">true</span>,</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">13</span><div>&nbsp;&nbsp;{'}'}</div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">14</span><div>&nbsp;&nbsp;me.<span className="text-blue-400">Build</span>(<span className="text-emerald-400">"Awesome APIs"</span>)<span className="animate-blink bg-slate-400 text-transparent ml-0.5">_</span></div></div>
-              <div className="flex hover:bg-white/[0.02] px-2 -mx-2 rounded"><span className="text-slate-600 w-8 select-none">15</span><div>{'}'}</div></div>
+            
+            {/* Code Content (VS Code Dark Theme Syntax) */}
+            <div className="p-6 font-mono text-sm md:text-[14px] leading-7 overflow-x-auto text-[#d4d4d4] selection:bg-[#264f78]">
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">1</span> <div><span className="text-code-keyword">package</span> main</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">2</span> <div></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">3</span> <div><span className="text-code-comment">// Architecting scalable systems 🚀</span></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">4</span> <div><span className="text-code-keyword">type</span> <span className="text-[#4ec9b0]">Developer</span> <span className="text-code-keyword">struct</span> {'{'}</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">5</span> <div>&nbsp;&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-[#4ec9b0]">string</span></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">6</span> <div>&nbsp;&nbsp;Focus&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-[#4ec9b0]">string</span></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">7</span> <div>&nbsp;&nbsp;Coffee&nbsp;&nbsp;&nbsp;<span className="text-[#4ec9b0]">bool</span></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">8</span> <div>{'}'}</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">9</span> <div></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">10</span><div><span className="text-code-keyword">func</span> <span className="text-code-type">main</span>() {'{'}</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">11</span><div>&nbsp;&nbsp;me := <span className="text-[#4ec9b0]">Developer</span>{'{'}</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">12</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Name:&nbsp;&nbsp;<span className="text-code-string">"Duc Phat"</span>,</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">13</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Focus:&nbsp;<span className="text-code-string">"Distributed Systems"</span>,</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">14</span><div>&nbsp;&nbsp;&nbsp;&nbsp;Coffee: <span className="text-[#569cd6]">true</span>,</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">15</span><div>&nbsp;&nbsp;{'}'}</div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">16</span><div>&nbsp;&nbsp;me.<span className="text-code-type">Build</span>(<span className="text-code-string">"Awesome APIs"</span>)<span className="animate-blink font-bold text-white">_</span></div></div>
+                <div className="flex hover:bg-white/[0.04] px-2 -mx-2 rounded"><span className="text-[#858585] w-8 select-none text-right pr-4">17</span><div>{'}'}</div></div>
             </div>
           </div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-dev-primary/10 blur-[80px] -z-10 rounded-full"></div>
