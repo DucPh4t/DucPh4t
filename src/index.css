@@ -58,3 +58,66 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+/* 3D Tilt perspective wrapper */
+.tilt-wrapper {
+  perspective: 1000px;
+}
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.tilt-wrapper:hover .tilt-card {
+  transform: rotateY(-2deg) rotateX(2deg) scale3d(1.02, 1.02, 1.02);
+}
+
+/* Scroll Progress Bar */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0ea5e9, #c678dd, #38bdf8);
+  background-size: 200% 100%;
+  z-index: 9999;
+  width: 0%;
+  animation: gradient-shift 2s linear infinite;
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.8);
+}
+@keyframes gradient-shift {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Preloader (Boot Sequence) */
+#preloader {
+  position: fixed;
+  inset: 0;
+  background-color: #05080f;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  font-family: 'Fira Code', monospace;
+  color: #94a3b8;
+  transition: opacity 0.6s ease-out, visibility 0.6s;
+}
+.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Cyberpunk Glitch Effect on Hover */
+.glitch-hover:hover {
+  animation: glitch-anim 0.2s linear infinite;
+  text-shadow: 2px 0px 0px rgba(14, 165, 233, 0.7), -2px 0px 0px rgba(198, 120, 221, 0.7);
+}
+@keyframes glitch-anim {
+  0% { transform: translate(0) skew(0deg); }
+  20% { transform: translate(-2px, 1px) skew(-1deg); }
+  40% { transform: translate(-1px, -1px) skew(1deg); }
+  60% { transform: translate(2px, 1px) skew(0deg); }
+  80% { transform: translate(1px, -1px) skew(0.5deg); }
+  100% { transform: translate(0) skew(0deg); }
+}

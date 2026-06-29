@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Background from './components/portfolio/Background';
 import Header from './components/portfolio/Header';
 import Hero from './components/portfolio/Hero';
@@ -7,10 +7,22 @@ import Skills from './components/portfolio/Skills';
 import Projects from './components/portfolio/Projects';
 import Contact from './components/portfolio/Contact';
 import Footer from './components/portfolio/Footer';
+import Preloader from './components/portfolio/Preloader';
 
 function App() {
-  // Intersection Observer for reveal animations & Mouse Tracking
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  // Intersection Observer for reveal animations & Mouse Tracking & Scroll Progress
   useEffect(() => {
+    // Scroll progress tracker
+    const handleScroll = () => {
+      const totalScroll = document.documentElement.scrollTop;
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scroll = `${totalScroll / windowHeight}`;
+      setScrollProgress(Number(scroll) * 100);
+    };
+    window.addEventListener('scroll', handleScroll);
+
     // Mouse tracking for spotlight effect
     const handleMouseMove = (e: MouseEvent) => {
       document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
@@ -39,6 +51,7 @@ function App() {
     });
 
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('mousemove', handleMouseMove);
       revealOnScroll.disconnect();
     };
@@ -46,6 +59,11 @@ function App() {
 
   return (
     <>
+      <Preloader />
+      
+      {/* Scroll Progress Bar */}
+      <div id="scroll-progress" style={{ width: `${scrollProgress}%` }}></div>
+
       {/* Global Mouse Spotlight Effect */}
       <div 
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300 hidden md:block mix-blend-screen" 

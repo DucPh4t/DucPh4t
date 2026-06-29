@@ -11,7 +11,7 @@ const Hero = () => {
             Available for data projects
           </div>
 
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight glitch-hover">
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-dev-primary to-cyan-300">Phát</span> 
             <span className="inline-block hover:animate-[spin_1s_ease-in-out] origin-bottom-right cursor-default transition-transform ml-2">👋</span>
           </h1>
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         {/* Editor */}
-        <div className="relative w-full max-w-lg mx-auto lg:max-w-none reveal" style={{ transitionDelay: '0.2s' }}>
+        <div className="relative w-full max-w-lg mx-auto lg:max-w-none reveal tilt-wrapper" style={{ transitionDelay: '0.2s' }}>
           {/* Floating Tech Badges */}
           <div className="absolute -left-6 top-12 bg-dev-surface border border-slate-700 px-3 py-2 rounded-xl items-center gap-2 shadow-xl z-20 animate-float-slow glass-panel hidden md:flex">
             <span className="text-yellow-400 font-bold">Py</span> Python
@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
 
           {/* IDE Window */}
-          <div className="bg-[#0b1221] rounded-2xl border border-slate-700 shadow-[0_20px_50px_-15px_rgba(14,165,233,0.2)] overflow-hidden relative z-10">
+          <div className="tilt-card bg-[#0b1221] rounded-2xl border border-slate-700 shadow-[0_20px_50px_-15px_rgba(14,165,233,0.2)] overflow-hidden relative z-10 glow-card">
             <div className="flex items-center justify-between px-4 py-3 bg-[#111827] border-b border-slate-800">
               <div className="flex gap-2.5">
                 <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>

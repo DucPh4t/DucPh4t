@@ -24,6 +24,7 @@ export default {
         'float-fast': 'float 4s ease-in-out infinite',
         'blink': 'blink 1s step-end infinite',
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'spin-slow': 'spin 15s linear infinite',
       },
       keyframes: {
         float: {
