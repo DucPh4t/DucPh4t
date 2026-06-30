@@ -38,6 +38,8 @@ const Contact = () => {
           name: name,
           email: email,
           message: message,
+          subject: `New Message from ${name} (Portfolio)`,
+          from_name: `${name} via Portfolio Contact`,
         }),
       });
 
