@@ -8,6 +8,7 @@ import Projects from './components/portfolio/Projects';
 import Contact from './components/portfolio/Contact';
 import Footer from './components/portfolio/Footer';
 import Preloader from './components/portfolio/Preloader';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -81,6 +82,7 @@ function App() {
         <Contact />
         <Footer />
       </main>
+      <Analytics />
     </>
   );
 }
