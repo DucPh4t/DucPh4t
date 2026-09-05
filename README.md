@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=f0c06b&height=200&section=header&text=Nguyen%20Duc%20Phat&fontSize=50&fontColor=0b0e12&fontAlignY=35&desc=AI%20Engineer%20%26%20Data%20Scientist&descAlignY=55&descColor=0b0e12" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=f0c06b&height=200&section=header&text=Nguyen%20Duc%20Phat&fontSize=50&fontColor=0b0e12&fontAlignY=35&desc=AI%20Engineer%20%C2%B7%20Data%20Scientist&descAlignY=55&descColor=0b0e12" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F0C06B&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+DucPhat+%F0%9F%91%8B;AI+Engineer+%26+Data+Scientist;Deep+Learning+%7C+Medical+Computer+Vision;Biosignals+%7C+Explainable+AI+(XAI);EAI+RAIDS+2026+Co-Author+%F0%9F%8E%93)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F0C06B&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+DucPhat+%F0%9F%91%8B;AI+Engineer+%C2%B7+Data+Scientist;Deep+Learning+%7C+Medical+Computer+Vision;Biosignals+%7C+Explainable+AI+(XAI);EAI+RAIDS+2026+Co-Author+%F0%9F%8E%93)](https://git.io/typing-svg)
 
 </div>
 
@@ -51,19 +51,15 @@ const ducphat = {
 
 **Medical Vision & Biosignals**
 
-![MONAI](https://img.shields.io/badge/MONAI-48A9A6?style=flat-square)
-![Librosa](https://img.shields.io/badge/Librosa-8B6F47?style=flat-square)
-![SHAP](https://img.shields.io/badge/XAI_SHAP-FF6B6B?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MONAI](https://img.shields.io/badge/MONAI-48A9A6?style=flat-square&logoColor=white)
+![SHAP](https://img.shields.io/badge/XAI%20SHAP-FF6B6B?style=flat-square&logoColor=white)
+![Librosa](https://img.shields.io/badge/Librosa-8B6F47?style=flat-square&logoColor=white)
 
-**Backend & Serving**
+**Backend & Tools**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-
-**Frontend & Tools**
-
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -78,7 +74,7 @@ const ducphat = {
 | | |
 |---|---|
 | 📄 **EAI RAIDS 2026** | Co-author — Pediatric heart murmur detection from PCG using XAI |
-| 🧠 **BraTS 2023** | 86.68% Dice Score — Brain tumor segmentation (UNet + Mamba) |
+| 🧠 **BraTS 2023** | 86.7% Dice Score — Brain tumor segmentation (UNet + Mamba) |
 | 🔬 **53+ Experiments** | Across medical vision & audio processing pipelines |
 | 🥉 **3rd Place** | Faculty Student Research Award, 05/2026 |
 
@@ -88,8 +84,14 @@ const ducphat = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DucPh4t&show_icons=true&theme=transparent&title_color=f0c06b&text_color=ffffff&icon_color=f0c06b&border_color=f0c06b30&hide_border=false&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DucPh4t&layout=compact&theme=transparent&title_color=f0c06b&text_color=ffffff&border_color=f0c06b30&hide_border=false" />
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
+
+</div>
+
+<div align="center">
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
 
 </div>
 
