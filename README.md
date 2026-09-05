@@ -77,7 +77,11 @@ const ducphat = {
 
 <div align="center">
 
-[![Portfolio Card](https://github-readme-stats.vercel.app/api/pin/?username=DucPh4t&repo=Portfolio-By-DucPhat&theme=transparent&title_color=f0c06b&text_color=ffffff&icon_color=f0c06b&border_color=f0c06b30)](https://github.com/DucPh4t/Portfolio-By-DucPhat)
+> 🌑 **DucPhat.dev Portfolio** — A handcrafted personal portfolio with *Nocturnal Amber Tech* aesthetic.
+>
+> Built with React 18 · TypeScript · Vite · Motion · Gemini AI
+
+[![Visit Portfolio](https://img.shields.io/badge/🌐_Visit_Live_Site-ducph4t.is--a.dev-f0c06b?style=for-the-badge&labelColor=0b0e12)](https://ducph4t.is-a.dev)
 
 </div>
 
