@@ -39,37 +39,12 @@ const ducphat = {
 
 ## 🛠 Tech Stack
 
-<div align="center">
-
-**AI, Deep Learning & LLMs**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangSmith](https://img.shields.io/badge/LangSmith-005571?style=flat-square&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
-**Retrieval & Vector Search**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20/%20pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Medical Vision & Biosignals**
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![MONAI](https://img.shields.io/badge/MONAI-48A9A6?style=flat-square&logoColor=white)
-![SHAP](https://img.shields.io/badge/XAI%20SHAP-FF6B6B?style=flat-square&logoColor=white)
-![Librosa](https://img.shields.io/badge/Librosa-8B6F47?style=flat-square&logoColor=white)
-
-**Backend & DevOps**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
+| Domain | Technologies & Frameworks |
+|---|---|
+| **AI, Deep Learning & LLMs** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LangSmith](https://img.shields.io/badge/LangSmith-005571?style=flat-square&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Retrieval & Vector Search** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Medical Vision & Biosignals** | ![MONAI](https://img.shields.io/badge/MONAI-48A9A6?style=flat-square&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![SHAP](https://img.shields.io/badge/XAI%20SHAP-FF6B6B?style=flat-square&logoColor=white) ![Librosa](https://img.shields.io/badge/Librosa-8B6F47?style=flat-square&logoColor=white) |
+| **Backend & DevOps** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
