@@ -15,6 +15,8 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ducph4t.is--a.dev-f0c06b?style=for-the-badge&labelColor=0b0e12)](https://ducph4t.is-a.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nguyenducphat1124)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nguyenducphat.edu@gmail.com)
 [![GitHub followers](https://img.shields.io/github/followers/DucPh4t?label=Follow&style=for-the-badge&color=f0c06b&labelColor=0b0e12)](https://github.com/DucPh4t)
 
 </div>
@@ -63,20 +65,14 @@ const ducphat = {
 
 <div align="center">
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
+<img src="https://github-readme-stats.vercel.app/api?username=DucPh4t&show_icons=true&bg_color=0b0e12&title_color=f0c06b&text_color=e2e8f0&icon_color=f0c06b&border_color=f0c06b40" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DucPh4t&layout=compact&bg_color=0b0e12&title_color=f0c06b&text_color=e2e8f0&border_color=f0c06b40" height="165" />
 
 </div>
 
 <div align="center">
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DucPh4t&theme=github_dark)](https://github.com/DucPh4t)
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=DucPh4t&theme=dark&background=0b0e12&border=f0c06b30&ring=f0c06b&fire=f0c06b&currStreakLabel=f0c06b&sideLabels=f0c06b&dates=888888)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=DucPh4t&theme=dark&background=0b0e12&border=f0c06b40&ring=f0c06b&fire=f0c06b&currStreakLabel=f0c06b&sideLabels=f0c06b&dates=888888)](https://git.io/streak-stats)
 
 </div>
 
