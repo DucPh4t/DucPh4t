@@ -66,7 +66,6 @@ const ducphat = {
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=DucPh4t&show_icons=true&bg_color=0b0e12&title_color=f0c06b&text_color=e2e8f0&icon_color=f0c06b&border_color=f0c06b40" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DucPh4t&layout=compact&bg_color=0b0e12&title_color=f0c06b&text_color=e2e8f0&border_color=f0c06b40" height="165" />
 
 </div>
 
